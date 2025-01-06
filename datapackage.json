@@ -1,0 +1,217 @@
+{
+  "name": "Unicode-Codes",
+  "title": "Unicode-Codes",
+  "resources": [
+    {
+      "path": "archive/source.csv",
+      "pathType": "local",
+      "name": "source",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ISO-8859-1",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "0000",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "<control>",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Cc",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "0",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "BN",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Unnamed: 5",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Unnamed: 6",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Unnamed: 7",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Unnamed: 8",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "N",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "NULL",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Unnamed: 11",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Unnamed: 12",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Unnamed: 13",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Unnamed: 14",
+            "type": "string",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "data/data.csv",
+      "pathType": "local",
+      "name": "data",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ISO-8859-1",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Code value",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Character name",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "General category",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Canonical combining classes",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Bidirectional category",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Character decomposition mapping",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Decimal digit value",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Digit value",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Numeric value",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Mirrored",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Unicode 1.0 Name",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "10646 comment field",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Uppercase mapping",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Lowercase mapping",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Titlecase mapping",
+            "type": "string",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "scripts/process.py",
+      "pathType": "local",
+      "name": "process",
+      "format": "py",
+      "encoding": "ISO-8859-1"
+    },
+    {
+      "path": "scripts/requirements.tx",
+      "pathType": "local",
+      "name": "requirements",
+      "format": "tx",
+      "encoding": "ISO-8859-1"
+    }
+  ],
+  "readme": "",
+  "description": "",
+  "licenses": [
+    {
+      "name": "ODC-PDDL",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License"
+    }
+  ]
+}
