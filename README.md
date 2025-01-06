@@ -18,6 +18,7 @@ datapackage:
     path: data.csv
 ---
 
+<a className="gh-badge" href="https://datahub.io/core/unicode-characters"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25" alt="badge" /></a>
 
 The following table describes the format and meaning of each field in a data entry in the UnicodeData. Fields which contain normative information are so indicated.
 
@@ -212,4 +213,3 @@ Values in the Unicode Character Database are subject to correction as errors are
 
 
 Source: https://unicode.org/
-
