@@ -1,103 +1,10 @@
 {
-  "name": "Unicode-Codes",
-  "title": "Unicode-Codes",
+  "name": "unicode-codes",
+  "title": "Unicode Codes",
+  "version": "0.1.0",
   "resources": [
     {
-      "path": "archive/source.csv",
-      "pathType": "local",
-      "name": "source",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "ISO-8859-1",
-      "dialect": {
-        "delimiter": ",",
-        "quoteChar": "\""
-      },
-      "schema": {
-        "fields": [
-          {
-            "name": "0000",
-            "type": "integer",
-            "format": "default"
-          },
-          {
-            "name": "<control>",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "Cc",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "0",
-            "type": "integer",
-            "format": "default"
-          },
-          {
-            "name": "BN",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "Unnamed: 5",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "Unnamed: 6",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "Unnamed: 7",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "Unnamed: 8",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "N",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "NULL",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "Unnamed: 11",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "Unnamed: 12",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "Unnamed: 13",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "Unnamed: 14",
-            "type": "string",
-            "format": "default"
-          }
-        ],
-        "missingValues": [
-          ""
-        ]
-      }
-    },
-    {
-      "path": "data/data.csv",
+      "path": "data/unicode-characters.csv",
       "pathType": "local",
       "name": "data",
       "format": "csv",
@@ -189,24 +96,10 @@
           ""
         ]
       }
-    },
-    {
-      "path": "scripts/process.py",
-      "pathType": "local",
-      "name": "process",
-      "format": "py",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": "scripts/requirements.tx",
-      "pathType": "local",
-      "name": "requirements",
-      "format": "tx",
-      "encoding": "ISO-8859-1"
     }
   ],
-  "readme": "",
-  "description": "",
+  "description": "UnicodeData.txt is a reference file from the Unicode Consortium containing metadata for every Unicode character, including code points, names, categories, and properties, used to support Unicode-compliant text processing.",
+  "collection": "reference-data",
   "licenses": [
     {
       "name": "ODC-PDDL",
